@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Чат-лог ассистент для GTA World RU.
+
+
+
+Установленная версия: {0} {1}
+Директория чат-лога: {2}</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Расширенный фильтр</value>
+  </data>
+  <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
+    <value> потому директория "{0}" уже существует.</value>
+  </data>
+  <data name="AutoStartDisableError" xml:space="preserve">
+    <value>При попытке отключить автозапуск произошла ошибка.</value>
+  </data>
+  <data name="AutoStartEnableError" xml:space="preserve">
+    <value>При попытке включить автозапуск произошла ошибка.</value>
+  </data>
+  <data name="AutoStartWarning" xml:space="preserve">
+    <value>Эта функция перестанет работать, если вы удалите или переместите парсер в другое место.</value>
+  </data>
+  <data name="BackupError" xml:space="preserve">
+    <value>При попытке автоматического сохранения чат-лога произошла ошибка.
+
+
+Убедитесь, что вы выбрали несистемную директорию для пути резервного копирования.</value>
+  </data>
+  <data name="BackupMoveError" xml:space="preserve">
+    <value>Возникла ошибка при перемещении файлов резервной копии в новую директорию</value>
+  </data>
+  <data name="BackupStatus" xml:space="preserve">
+    <value>Авто бэкап: {0}</value>
+  </data>
+  <data name="BackupTurnedOff" xml:space="preserve">
+    <value>Авто бэкап был выключен, пожалуйста, если Вы хотите его использовать, то включите обратно.</value>
+  </data>
+  <data name="BackupWillBeOff" xml:space="preserve">
+    <value>Функция автоматического резервного копирования будет отключена, пока открыт диалог настроек, а новые настройки будут применены только после закрытия диалога настроек.
+
+
+Хотите продолжить?</value>
+  </data>
+  <data name="BadBackupPath" xml:space="preserve">
+    <value>Пожалуйста, выберите не корневую директорию для размещения резервной копии.</value>
+  </data>
+  <data name="BadBackupPathSave" xml:space="preserve">
+    <value>Пожалуйста, выберите правильную диреткорию для резервного копирования или отключите автоматическое резервное копирование.</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>Пожалуйста, выберите не корневой директорию вашего пути к RAGEMP.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="CharacterCounter" xml:space="preserve">
+    <value>{0} символов и {1} строк</value>
+  </data>
+  <data name="CurrentTime" xml:space="preserve">
+    <value>Текущее время: {0}</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="FacebrowserLink" xml:space="preserve">
+    <value>https://face.gtaw.me/</value>
+  </data>
+  <data name="FeatureShowcaseLink" xml:space="preserve">
+    <value>https://forum.gtaw.me/topic/36897-gta-world-ru-chatlog-parser</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>При попытке удалить файл произошла ошибка.</value>
+  </data>
+  <data name="FilterHint" xml:space="preserve">
+    <value>Если вы хотите отфильтровать чат-лог, в каждой строке может быть только одно слово, число или пара имен.
+
+Пример: Boat, $500, John, John Doe или John_Doe</value>
+  </data>
+  <data name="FilterHintNoMatches" xml:space="preserve">
+    <value>Не найдено ни одного совпадения.
+
+
+Убедитесь, что в каждой строке есть только одно слово, число или пара правильных имен.
+
+Пример: Boat, $500, John, John Doe или John_Doe</value>
+  </data>
+  <data name="FilterHintSkipped" xml:space="preserve">
+    <value>Одно или несколько слов были пропущены в процессе фильтрации, поскольку они не имеют правильного формата.
+
+
+Убедитесь, что в каждой строке есть только одно слово, число или пара правильных имен.
+
+Пример: Boat, $500, John, John Doe или John_Doe</value>
+  </data>
+  <data name="FilterLogStatus" xml:space="preserve">
+    <value>Чат-лог{0} загружен{1}</value>
+  </data>
+  <data name="FilterReadError" xml:space="preserve">
+    <value>При чтении выбранного файла произошла ошибка.</value>
+  </data>
+  <data name="DirectoryFinder" xml:space="preserve">
+    <value>Автоматически найдена директория RAGEMP по пути {0}.
+
+
+Пожалуйста, найдите правильный путь вручную, если он неверен или у вас несколько установок RAGEMP.</value>
+  </data>
+  <data name="DirectoryFinderError" xml:space="preserve">
+    <value>Произошла ошибка при попытке автоматического поиска директории RAGEMP, пожалуйста, найдите ее вручную.</value>
+  </data>
+  <data name="DirectoryFinderNotFound" xml:space="preserve">
+    <value>Не удалось определить путь к директории RAGEMP, найдите ее вручную.</value>
+  </data>
+  <data name="DirectoryFinderTitle" xml:space="preserve">
+    <value>Информация (Первый запуск)</value>
+  </data>
+  <data name="ForumsLink" xml:space="preserve">
+    <value>https://forum.gtaw.me/</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="IntervalHint" xml:space="preserve">
+    <value>Автоматическое резервное копирование чат-лога во время игры (каждые {0} {1})</value>
+  </data>
+  <data name="IntervalRecommended" xml:space="preserve">
+    <value>{0}. (рекомендуется)</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Неверный путь к директории RAGEMP.</value>
+  </data>
+  <data name="InvalidDirectoryPathBackup" xml:space="preserve">
+    <value>Please choose a valid RAGEMP directory location before trying to enable automatic backup.</value>
+  </data>
+  <data name="InvalidDirectoryPathFilter" xml:space="preserve">
+    <value>Please choose a valid RAGEMP directory location before trying to filter your chat log.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="LanguageInfo" xml:space="preserve">
+    <value>Выбранный язык будет использоваться для извлечения журнала чата с нужного сервера.
+
+</value>
+  </data>
+  <data name="LoadedAt" xml:space="preserve">
+    <value> в {0}</value>
+  </data>
+  <data name="MinimizeInsteadOfClose" xml:space="preserve">
+    <value>Закрытие парсера приведет к тому, что автоматическое резервное копирование не будет выполняться.
+
+
+Не хотите ли вы вместо этого свернуть парсер в системный трей?</value>
+  </data>
+  <data name="MinutePlural" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="MinuteSingular" xml:space="preserve">
+    <value>минута</value>
+  </data>
+  <data name="MoveBackups" xml:space="preserve">
+    <value>Хотите переместить все существующие файлы резервных копий в новую директорию?</value>
+  </data>
+  <data name="MultipleChatLogs" xml:space="preserve">
+    <value>Обнаружено несколько каталогов ресурсов GTA World. 
+Рекомендуется использовать один IP для подключения к серверу и удалить другие директории ресурсов.
+
+
+Оставьте либо "{0}", либо "{1}".</value>
+  </data>
+  <data name="Negation" xml:space="preserve">
+    <value> не</value>
+  </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>Не найден чат-лог GTA World</value>
+  </data>
+  <data name="NoChatLogLoaded" xml:space="preserve">
+    <value>Ни один чат-лог не загружен.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Обновления не найдены.
+
+Попробуйте проверить подключение к Интернету или увеличить таймаут проверки обновлений в окне настроек.
+
+
+Установленная версия: {0}</value>
+  </data>
+  <data name="NothingFiltered" xml:space="preserve">
+    <value>Вы еще ничего не отфильтровали.</value>
+  </data>
+  <data name="NothingMovedWarning" xml:space="preserve">
+    <value>Не переместили ни одной директории в новое место.</value>
+  </data>
+  <data name="NothingParsed" xml:space="preserve">
+    <value>Вы еще ничего не парсили.</value>
+  </data>
+  <data name="NoWordsToFilter" xml:space="preserve">
+    <value>Вы не ввели ни одного слова для фильтрации.
+
+
+Используйте стандартный фильтр, если не хотите фильтровать по словам.</value>
+  </data>
+  <data name="OldChatLog" xml:space="preserve">
+    <value>При парсинге чат-лога был обнаружен старый формат, поэтому рекомендуется удалить его и все остальные скрипты, которые не были обновлены корректно.
+
+
+Вы хотите удалить эти файлы?
+
+(Перед удалением файл чат-лога будет отпарсен)</value>
+  </data>
+  <data name="OpenDocumentation" xml:space="preserve">
+    <value>Вы хотите открыть страницу документации по парсеру на форуме GTA World?</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>Программа уже запущена, проверьте панель задач или диспетчер задач.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>При парсинге чат-лога произошла ошибка.</value>
+  </data>
+  <data name="PartialMoveWarning" xml:space="preserve">
+    <value>Переместите в новое место только директории "{0}".</value>
+  </data>
+  <data name="ProjectLink" xml:space="preserve">
+    <value>https://github.com/AdvGTAW/GTAW-Log-Parser</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ReleasesLink" xml:space="preserve">
+    <value>https://github.com/0Z0SK0/GTAWRU-Log-Parser/releases</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Перезапуск</value>
+  </data>
+  <data name="RunningLatest" xml:space="preserve">
+    <value>Вы используете последнюю версию парсера.
+
+
+Установленная версия: {0}</value>
+  </data>
+  <data name="SameHashWarning" xml:space="preserve">
+    <value>Один и тот же чат-лог был сохранен {0} или более раз, это означает, что скрипт клиента RAGEMP, отвечающий за регистрацию вашего чата, сломан.
+
+
+Это происходит при потере интернет-соединения или падении сервера. 
+Единственным известным способом устранения проблемы является удаление каталогов ресурсов сервера, на котором вы играете.
+
+
+Потерянный чат-лог не может быть восстановлен.</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>При попытке сохранить файл произошла ошибка.</value>
+  </data>
+  <data name="SecondPlural" xml:space="preserve">
+    <value>секунд</value>
+  </data>
+  <data name="SecondSingular" xml:space="preserve">
+    <value>секунда</value>
+  </data>
+  <data name="SettingsAfterClose" xml:space="preserve">
+    <value>Настройки будут применены только после того, как вы закроете диалог настроек.</value>
+  </data>
+  <data name="SimpleFilter" xml:space="preserve">
+    <value>Стандартный фильтр</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Начать</value>
+  </data>
+  <data name="SuccessfulBackup" xml:space="preserve">
+    <value>Успешно отпарсен и сохранен чат-лог в {0}</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>Чтобы переключиться на выбранный сервер, парсеру необходимо перезапуститься.
+
+
+Хотите ли вы применить изменения и перезапустить приложение сейчас?</value>
+  </data>
+  <data name="UCPLink" xml:space="preserve">
+    <value>https://ucp.gtaw.me/</value>
+  </data>
+  <data name="UpdateAbortTime" xml:space="preserve">
+    <value>{0}.</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Новая версия парсера доступна на GitHub.
+
+
+Установленная версия: {0}
+
+Доступная версия: {1}
+
+
+
+Хотите перейти на страницу релиза прямо сейчас?</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>Обновление доступно</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+</root>
