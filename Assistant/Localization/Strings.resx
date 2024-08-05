@@ -243,7 +243,7 @@
     <value>Информация (Первый запуск)</value>
   </data>
   <data name="ForumsLink" xml:space="preserve">
-    <value>https://forum.gtaw.me/</value>
+    <value>https://forum.gtaw.me/topic/36897-gta-world-ru-chatlog-parser</value>
   </data>
   <data name="Information" xml:space="preserve">
     <value>Информация</value>
@@ -258,10 +258,10 @@
     <value>Неверный путь к директории RAGEMP.</value>
   </data>
   <data name="InvalidDirectoryPathBackup" xml:space="preserve">
-    <value>Please choose a valid RAGEMP directory location before trying to enable automatic backup.</value>
+    <value>Пожалуйста, выберите правильное расположение каталога RAGEMP, прежде чем пытаться включить автоматическое резервное копирование.</value>
   </data>
   <data name="InvalidDirectoryPathFilter" xml:space="preserve">
-    <value>Please choose a valid RAGEMP directory location before trying to filter your chat log.</value>
+    <value>Пожалуйста, выберите правильное расположение каталога RAGEMP, прежде чем пытаться отфильтровать чат-лог.</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Язык</value>
@@ -349,7 +349,7 @@
     <value>Переместите в новое место только директории "{0}".</value>
   </data>
   <data name="ProjectLink" xml:space="preserve">
-    <value>https://github.com/AdvGTAW/GTAW-Log-Parser</value>
+    <value>https://github.com/0Z0SK0/GTAWRU-Log-Parser</value>
   </data>
   <data name="Question" xml:space="preserve">
     <value>Question</value>

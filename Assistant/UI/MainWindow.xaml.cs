@@ -744,7 +744,7 @@ namespace Assistant.UI
             {
                 Visible = false,
                 Icon = Properties.Resources.AppIcon,
-                Text= @"GTA World Chat Log Assistant"
+                Text= @"GTA World RU Chat Log Assistant"
             };
 
             _trayIcon.MouseDoubleClick += TrayIcon_MouseDoubleClick;

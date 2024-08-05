@@ -19,6 +19,7 @@ namespace Assistant.Controllers
 
         public const string ParameterPrefix = "--";
         public const string ProcessName = "GTA5";
+
         public const string ProductHeader = "GTAWRU-Log-Parser";
         public static string ResourceDirectory;
         public static string LogLocation;

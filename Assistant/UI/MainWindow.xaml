@@ -31,31 +31,31 @@
                     Visibility="Collapsed"
                     Click="OpenGithubProject_Click"
                     Content="{iconPacks:Material GithubFace, Width=20, Height=20}"
-                    ToolTip="Open the project page on GitHub" />
+                    ToolTip="Открыть страницу проекта на GitHub" />
 
             <Button x:Name="OpenGithubReleases"
                     Visibility="Collapsed"
                     Click="OpenGithubReleases_Click"
                     Content="{iconPacks:Material Download, Width=16, Height=16}"
-                    ToolTip="Open the releases page on GitHub" />
+                    ToolTip="Открыть страницу релизов на GitHub" />
 
             <Button x:Name="OpenUCP"
                     Visibility="Collapsed"
                     Click="OpenUCP_Click"
                     Content="{iconPacks:Material CardBulletedOutline, Width=20, Height=20}"
-                    ToolTip="Open the GTA World UCP" />
+                    ToolTip="Открыть UCP GTA World" />
 
             <Button x:Name="OpenFacebrowser"
                     Visibility="Collapsed"
                     Click="OpenFacebrowser_Click"
                     Content="{iconPacks:Material FacebookBox, Width=16, Height=16}"
-                    ToolTip="Open Facebrowser" />
+                    ToolTip="Открыть Facebrowser" />
 
             <Button x:Name="OpenForums"
                     Visibility="Collapsed"
                     Click="OpenForums_Click"
                     Content="{iconPacks:Material Web, Width=18, Height=18}"
-                    ToolTip="Open the GTA World forums" />
+                    ToolTip="Открыть форум GTA World" />
         </Controls:WindowCommands>
     </Controls:MetroWindow.RightWindowCommands>
 

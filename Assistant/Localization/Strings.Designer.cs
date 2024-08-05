@@ -384,7 +384,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на https://forum.gtaw.me/.
+        ///   Ищет локализованную строку, похожую на https://forum.gtaw.me/topic/36897-gta-world-ru-chatlog-parser.
         /// </summary>
         internal static string ForumsLink {
             get {
@@ -429,7 +429,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Please choose a valid RAGEMP directory location before trying to enable automatic backup..
+        ///   Ищет локализованную строку, похожую на Пожалуйста, выберите правильное расположение каталога RAGEMP, прежде чем пытаться включить автоматическое резервное копирование..
         /// </summary>
         internal static string InvalidDirectoryPathBackup {
             get {
@@ -438,7 +438,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Please choose a valid RAGEMP directory location before trying to filter your chat log..
+        ///   Ищет локализованную строку, похожую на Пожалуйста, выберите правильное расположение каталога RAGEMP, прежде чем пытаться отфильтровать чат-лог..
         /// </summary>
         internal static string InvalidDirectoryPathFilter {
             get {
@@ -658,7 +658,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на https://github.com/AdvGTAW/GTAW-Log-Parser.
+        ///   Ищет локализованную строку, похожую на https://github.com/0Z0SK0/GTAWRU-Log-Parser.
         /// </summary>
         internal static string ProjectLink {
             get {
